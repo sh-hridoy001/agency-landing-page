@@ -592,6 +592,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -608,12 +612,28 @@ video {
   top: 0px;
 }
 
+.top-\[\] {
+  top: ;
+}
+
+.top-\[90\] {
+  top: 90;
+}
+
+.top-\[90px\] {
+  top: 90px;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .z-20 {
   z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
 }
 
 .mx-auto {
@@ -645,8 +665,20 @@ video {
   height: 100%;
 }
 
+.h-\[90px\] {
+  height: 90px;
+}
+
+.h-0 {
+  height: 0px;
+}
+
 .w-\[567px\] {
   width: 567px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[1920px\] {
@@ -665,8 +697,20 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .bg-gray-100 {
@@ -695,6 +739,10 @@ video {
   background-repeat: no-repeat;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -702,6 +750,28 @@ video {
 .text-accent {
   --tw-text-opacity: 1;
   color: rgb(205 162 116 / var(--tw-text-opacity, 1));
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 body {
@@ -781,6 +851,26 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @media (min-width: 960px) {
+  .lg\:relative {
+    position: relative;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:items-start {
     align-items: flex-start;
   }
@@ -789,8 +879,16 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
   }
 
+  .lg\:border-none {
+    border-style: none;
+  }
+
   .lg\:bg-cover {
     background-size: cover;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
   }
 }
 
