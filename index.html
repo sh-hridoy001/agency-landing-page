@@ -31,12 +31,18 @@
     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
 
         <!--Bg-grid-->
-        <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0"></div>
+        <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
+        
         <!--Hero -->
-        <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px]">
-            <div class="container mx-auto ">
+        <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+            <div class="container mx-auto h-full items-center flex justify-center xl:justify-start">
+
                 <!--text-->
-                <div>text</div>
+                <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
+                    <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
+                    <p class="mb-8">There are many variations of the passages of lorem Ipsum from available, variations of the passages.</p>
+                    <button class="btn btn-primary mx-auto xl:mx-0">Get free estimation <i class="ri-arrow-right-line text-accent"></i></button>
+                </div>
             </div>
         </section>    
 
