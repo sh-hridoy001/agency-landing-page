@@ -556,6 +556,8 @@ video {
 
 .container {
   width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media (min-width: 640px) {
@@ -570,27 +572,39 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 960px) {
   .container {
-    max-width: 1024px;
+    max-width: 960px;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
+.grid {
+  display: grid;
+}
+
+.bg-cyan-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 182 212 / var(--tw-bg-opacity, 1));
+}
+
+.font-secondary {
+  font-family: Jost;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -598,6 +612,44 @@ video {
   line-height: 2.25rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+body {
+  font-family: Jost;
+  font-size: 22px;
+  --tw-text-opacity: 1;
+  color: rgb(77 80 83 / var(--tw-text-opacity, 1));
+}
+
+a {
+  font-size: 20px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(205 162 116 / var(--tw-text-opacity, 1));
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: DM Serif Display;
+  --tw-text-opacity: 1;
+  color: rgb(41 47 54 / var(--tw-text-opacity, 1));
+}
+
+.h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+@media (min-width: 960px) {
+  .h1 {
+    font-size: 84px;
+  }
 }

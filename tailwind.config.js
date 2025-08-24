@@ -2,7 +2,7 @@
 export default {
    content: ['*.{html,js}'],
    theme: {
-     container: {
+      container: {
       padding: {
         DEFAULT: '15px',
       },
@@ -21,7 +21,20 @@ export default {
       hero: 'url(/assets/hero/bg.jpg)',
       grid: 'url(/assets/grid.png)',
      },
-     extend: {},
+     extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#292f36',
+          hover: '#343e4a',
+        },
+        secondary: '#4d5053',
+        accent: {
+          DEFAULT: '#cda274',
+          secondary: 'f4f0ec',
+          hover: '#b88c5d',
+        },
+      },
+     },
    },
    plugins: [],
  };
