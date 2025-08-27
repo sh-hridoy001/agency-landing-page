@@ -721,8 +721,8 @@ video {
   max-width: 1920px;
 }
 
-.max-w-\[370px\] {
-  max-width: 370px;
+.max-w-\[450px\] {
+  max-width: 450px;
 }
 
 .max-w-\[453px\] {
@@ -957,6 +957,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .h3 {
   font-size: 25px;
+  font-weight: 600;
 }
 
 .btn {
@@ -997,6 +998,14 @@ h1,h2,h3,h4,h5,h6 {
 .nav-is-open {
   height: 350px;
   padding: 1.5rem;
+}
+
+/* Swiper pagination */
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-horizontal.swiper-pagination-bullet {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 47 54 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-accent:hover {

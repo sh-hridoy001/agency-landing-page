@@ -17,6 +17,13 @@ const swiper = new Swiper(".swiper",{
         clickable: true,
     },
 
+    // Optional parameters
+    speed:400,
+    spaceBetween: 30,
+    autoplay: {
+    delay:3000,
+    disableOnInteraction: false
+    },
     //____breakpoints____
     slidesPerView: 3,
     spaceBetween: 20,
@@ -24,10 +31,10 @@ const swiper = new Swiper(".swiper",{
         320: {
             slidesPerView: 1,
         },
-        768: {
+        960: {
             slidesPerView: 2,
         },
-        960: {
+        1200: {
             slidesPerView: 3,
         },
     },
