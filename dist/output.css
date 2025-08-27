@@ -801,10 +801,6 @@ video {
   gap: 2rem;
 }
 
-.gap-9 {
-  gap: 2.25rem;
-}
-
 .gap-x-\[104px\] {
   -moz-column-gap: 104px;
        column-gap: 104px;
@@ -834,15 +830,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-r {
-  border-right-width: 1px;
-}
-
-.border-accent {
-  --tw-border-opacity: 1;
-  border-color: rgb(205 162 116 / var(--tw-border-opacity, 1));
-}
-
 .bg-accent-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(244 240 236 / var(--tw-bg-opacity, 1));
@@ -850,10 +837,6 @@ video {
 
 .bg-accent\/15 {
   background-color: rgb(205 162 116 / 0.15);
-}
-
-.bg-accent\/20 {
-  background-color: rgb(205 162 116 / 0.2);
 }
 
 .bg-gray-100 {
@@ -890,6 +873,10 @@ video {
   padding: 2.25rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -898,11 +885,6 @@ video {
 .py-\[80px\] {
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-.py-\[150px\] {
-  padding-top: 150px;
-  padding-bottom: 150px;
 }
 
 .pb-\[110px\] {
@@ -915,14 +897,6 @@ video {
 
 .pt-\[88px\] {
   padding-top: 88px;
-}
-
-.pb-\[150px\] {
-  padding-bottom: 150px;
-}
-
-.pt-\[80px\] {
-  padding-top: 80px;
 }
 
 .text-left {
@@ -1174,10 +1148,6 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .xl\:grid-rows-4 {
-    grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
   .xl\:flex-row {
