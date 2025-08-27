@@ -16,4 +16,19 @@ const swiper = new Swiper(".swiper",{
         el: '.swiper-pagination',
         clickable: true,
     },
+
+    //____breakpoints____
+    slidesPerView: 3,
+    spaceBetween: 20,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        960: {
+            slidesPerView: 3,
+        },
+    },
 });
