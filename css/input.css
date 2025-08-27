@@ -48,5 +48,5 @@ h1,h2,h3,h4,h5,h6 {
 /* Swiper pagination */
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-horizontal.swiper-pagination-bullet {
-    @apply bg-primary;
+    @apply bg-primary w-3 h-3 ;  
 }

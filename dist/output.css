@@ -1004,6 +1004,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-horizontal.swiper-pagination-bullet {
+  height: 0.75rem;
+  width: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(41 47 54 / var(--tw-bg-opacity, 1));
 }
@@ -1059,6 +1061,10 @@ h1,h2,h3,h4,h5,h6 {
   .xl\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .xl\:mt-\[150px\] {
+    margin-top: 150px;
   }
 
   .xl\:mt-\[200px\] {
