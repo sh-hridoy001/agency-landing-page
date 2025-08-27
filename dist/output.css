@@ -713,6 +713,10 @@ video {
   height: 100%;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
 .w-\[567px\] {
   width: 567px;
 }
@@ -861,6 +865,15 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-accent {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 162 116 / var(--tw-bg-opacity, 1));
+}
+
+.bg-accent\/20 {
+  background-color: rgb(205 162 116 / 0.2);
 }
 
 .bg-hero {
