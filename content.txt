@@ -4,7 +4,7 @@
 
 
 git add .
-git commit -m " section div done "
+git commit -m "fix some bug in main section "
 git push
 
 

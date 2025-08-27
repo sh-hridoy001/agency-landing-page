@@ -30,7 +30,7 @@ export default {
         secondary: '#4d5053',
         accent: {
           DEFAULT: '#cda274',
-          secondary: 'f4f0ec',
+          secondary: '#f4f0ec',
           hover: '#b88c5d',
         },
       },
