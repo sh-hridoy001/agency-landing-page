@@ -54,14 +54,15 @@
 
         </div>
      </header>
+
      
     <!--Page Wrapper-->
     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+        
 
         <!--Bg-grid-->
         <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
         
-
         <!--Hero -->
         <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
             <div class="container mx-auto h-full items-center flex justify-center xl:justify-start">
@@ -75,7 +76,6 @@
             </div>
         </section> 
         
-
         <!--Steps-->
         <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
             <div class="container mx-auto">
@@ -114,7 +114,6 @@
             </div>
         </section>
 
-
         <!--about section-->
         <section class="about container mx-auto mt-[80px] xl:mt-[200px] relative z-20  xl:px-0">
 
@@ -149,7 +148,6 @@
             </div>
 
         </section>
-
 
         <!--testimonial section-->
         <section class="testimonial container mx-auto mt-[80px] xl:mt-[200px] relative z-20 xl:px-0">
@@ -242,7 +240,6 @@
             </div>
         </section>
 
-
         <!-- brands -->
         <section class="brands container mx-auto mt-[80px] xl:mt-[150px] relative z-20 ">
             <div class="container mx-auto">
@@ -268,7 +265,6 @@
             </div>
         </section>
 
-
         <!-- works section -->
         <section class="works container mx-auto mt-[80px] xl:mt-[150px]  relative z-20 xl:px-0">
             <div class="container mx-auto xl:px-0 ">
@@ -282,7 +278,7 @@
                 <div class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]">
 
                     <!--item 1-->
-                    <div class="w-full h-full mx-auto max-w-[548px]">
+                    <div class="w-full h-full mx-auto max-w-[548px] p-6">
                         <img class="mb-6" src="/assets/work/01.png" alt="">
                         <div class="flex justify-between items-center w-full" >
                             <div>
@@ -334,7 +330,7 @@
         </section>
         
         <!-- STARS -->
-        <section class="stars mx-auto mt-[80px] xl:mt-[150px] bg-accent-secondary  relative z-20">
+        <section class="stars mx-auto mt-[80px] xl:mt-[150px] bg-accent-secondary relative z-20 ">
 
             <div class="container mx-auto py-[80px] xl:py-[150px]" >
                 <div class="grid grid-cols-1 xl:grid-cols-4 text-center gap-12">
@@ -364,30 +360,72 @@
         </section>
         
         <!-- News section  -->
-        <section class="news mx-auto mt-[80px] xl:mt-[150px]  relative z-20">
-            <div class="container mx-auto">
+        <section class="news mx-auto mt-[80px] xl:mt-[150px] relative z-20">
+
+            <div class="container mx-auto px-0">
+
+                <!-- text -->
+                <div class="text-center mb-14">
+                    <h2 class="news__title h2 mb-4">Articles & News</h2>
+                    <p class="news__subtitle max-w-4xl mx-auto">It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.</p>
+                </div>
 
                 <!-- grid -->
-                 <div>
+                 <div class="news__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px] ">
 
-                    <!--item 1-->
-                    <div>
-                        <img src="/assets/news/01.png" alt="">
-                        <div>
-                            <h3>Let's Get Solution For Building Construction Work</h3>
-                            <div>
-                                <p>28 august,2025</p>
-                                <i class="ri-arrow-right-s-line text-3xl text-primary  bg-accent-secondary  w-[70px] h-[70px] rounded-full"></i>
+                    <!--grid item 1-->
+                    <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
+                        <img class="mb-5" src="/assets/news/01.png" alt="">
+                        <div class="flex flex-col gap-[30px]">
+                            <h3 class="h3 mb-5">Let's Get Solution For Building Construction Work</h3>
+                            <div class="flex items-center justify-between">
+                                <p class="text-base">28 august,2025</p>
+                                <button class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
+                                    <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
+
+                    <!--grid item 2-->
+                    <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
+                        <img class="mb-5" src="/assets/news/02.png" alt="">
+                        <div class="flex flex-col gap-[30px]">
+                            <h3 class="h3 mb-5">Low Cost Latest Invented Interior Designing Ideas.</h3>
+                            <div class="flex items-center justify-between">
+                                <p class="text-base">29 august,2025</p>
+                                <button class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
+                                    <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--grid item 3-->
+                    <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
+                        <img class="mb-5" src="/assets/news/03.png" alt="">
+                        <div class="flex flex-col gap-[30px]">
+                            <h3 class="h3 mb-5">Best For Any Office & Business Interior Solution</h3>
+                            <div class="flex items-center justify-between">
+                                <p class="text-base">30 august,2025</p>
+                                <button class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
+                                    <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                  </div>
+
             </div>
+
         </section>
 
         <!--Temporary DIV  -->
         <div class="h-[3000px]">
         </div>
+
+
 
     </main>
     
