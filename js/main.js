@@ -100,33 +100,3 @@ sr.reveal('.contact__text', {delay:800} );
 sr.reveal('.Footer__item', {distance: '100px', interval:100} )
 sr.reveal('.footer__copyright');
 
-
-/*~~~~~~~~~~~~~~~ SHOW SCROLL UP ~~~~~~~~~~~~~~~*/
-const scrollUp = () => {
-  const scrollUpBtn = document.getElementById("Scroll-up")
-
-  if(this.scrollY >=250) {
-    scrollUpBtn.classList.remove("-bottom-1/2")
-    scrollUpBtn.classList.add("bottom-4")
-  } else {
-    scrollUpBtn.classList.add("-bottom-1/2")
-    scrollUpBtn.classList.remove("bottom-4")
-  }
-}
-
-window.addEventListener("scroll",scrollUp)
-
-
-
-/*~~~~~~~~~~~~~~~ CHANGE BACKGROUND HEADER ~~~~~~~~~~~~~~~*/
-const scrollHeader = () => {
-  const header = document.getElementById("navbar")
-
-  if(this.scrollY >=50) {
-    header.classList.add("border-b", "border-yellow-500")
-  } else {
-    header.classList.remove("border-b", "border-yellow-500")
-  }
-}
-
-window.addEventListener("scroll",scrollHeader)
