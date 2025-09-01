@@ -74,4 +74,6 @@ sr.reveal('.testimonial__slider', {delay:1000});
 sr.reveal('.brand__img', { delay:600, distance: '100px', interval:100});
 
 //____________WORKS______________
-
+sr.reveal('.work__title');
+sr.reveal('.work__subtitle', {delay:800 } );
+sr.reveal('.work__grid', {delay:1000 } );
