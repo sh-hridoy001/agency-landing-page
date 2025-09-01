@@ -53,6 +53,7 @@ const sr = ScrollReveal({
 //__________HERO____________
 sr.reveal('.hero__text',{origin:'top'})
 
+
 //__________STEPS____________
 sr.reveal('.steps__step',{distance: '100px', interval:100})
 
