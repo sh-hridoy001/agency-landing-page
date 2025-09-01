@@ -77,3 +77,7 @@ sr.reveal('.brand__img', { delay:600, distance: '100px', interval:100});
 sr.reveal('.work__title');
 sr.reveal('.work__subtitle', {delay:800 } );
 sr.reveal('.work__grid', {delay:1000 } );
+
+//___________STATS________________
+sr.reveal('.stats');
+sr.reveal('.stats__item', { distance: '100px', interval:100});
