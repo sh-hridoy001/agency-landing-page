@@ -44,7 +44,6 @@ h1,h2,h3,h4,h5,h6 {
     @apply h-[350px] p-6 ;
 }
 
-
 /* Swiper pagination */
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-horizontal.swiper-pagination-bullet {
