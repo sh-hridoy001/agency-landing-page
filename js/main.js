@@ -8,7 +8,6 @@ navTriggerBtn.addEventListener('click', ()=> {
 
 
 
-
 //_____swiper js______
 const swiper = new Swiper(".swiper",{
     loop: true,
@@ -40,7 +39,6 @@ const swiper = new Swiper(".swiper",{
         },
     },
 });
-
 
 
 
