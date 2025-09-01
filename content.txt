@@ -1,13 +1,7 @@
 
-
--------------------
-
-
-git add .
-git commit -m "fix some bug in main section "
-git push
-
-
+(SH HRIDOY)
+If you be happy by getting the all code of the website , you can send him some bonus . He is ready to get it.
+- Bkash(01873960970)
 
 ------------------
 LINKS
@@ -134,3 +128,4 @@ contact@interno.com
 COPYRIGHT
 ------------------
 Copyright © Interno 2024. All rights reserved.
+
