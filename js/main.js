@@ -57,6 +57,7 @@ sr.reveal('.hero__text',{origin:'top'})
 //__________STEPS____________
 sr.reveal('.steps__step',{distance: '100px', interval:100})
 
+
 //__________ABOUT____________
 sr.reveal('.about__text',{origin: 'left'})
 
