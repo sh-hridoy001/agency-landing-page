@@ -40,3 +40,24 @@ const swiper = new Swiper(".swiper",{
         },
     },
 });
+
+//scroll reveal animations
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance:'60px',
+    duration: 3000,
+    delay: 600,
+    //reset: true,
+});
+
+//__________HERO____________
+sr.reveal('.hero__text',{origin:'top'})
+
+//__________STEPS____________
+sr.reveal('.steps__step',{distance: '100px', interval:100})
+
+//__________ABOUT____________
+sr.reveal('.about__text',{origin: 'left'})
+
+sr.reveal('.about__img',{origin: 'right', delay:800})
+
