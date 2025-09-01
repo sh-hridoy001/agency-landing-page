@@ -85,3 +85,7 @@ sr.reveal('.stats__item', { distance: '100px', interval:100});
 //___________NEWS________________
 sr.reveal('.news__title');
 sr.reveal('.news__subtitle', {delay:800 } );
+sr.reveal('.news__item', { delay:1000, distance: '100px', interval:100});
+
+
+//____________
