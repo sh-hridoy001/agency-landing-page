@@ -88,4 +88,6 @@ sr.reveal('.news__subtitle', {delay:800 } );
 sr.reveal('.news__item', { delay:1000, distance: '100px', interval:100});
 
 
-//____________
+//____________CONTACXT______________
+sr.reveal('.contact');
+sr.reveal('.contact__text', {delay:800} );
