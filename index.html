@@ -6,22 +6,23 @@
     <title>Interno</title>
 
     <!-- CSS -->
-     <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/dist/output.css">
 
     <!-- ICON LINK-->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
 
     <!--Google Font _ Manrope Font-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!--Font Awesome CDN-->
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <!-- Swiper CSS-->
-     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
 
 </head>
 <body class="bg-gray-100">
@@ -42,15 +43,14 @@
                     <i class="ri-menu-4-line text-4xl text-primary"></i>
                 </div>
                 <ul id="nav_manu" class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full duration-300 transition-all">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Our Works</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#works">Our Works</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-
 
         </div>
      </header>
@@ -63,7 +63,7 @@
         <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
         
         <!--Hero -->
-        <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+        <section id="home" class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
             <div class="container mx-auto h-full items-center flex justify-center xl:justify-start">
 
                 <!--text-->
@@ -76,7 +76,7 @@
         </section> 
         
         <!--Steps-->
-        <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
+        <section id="" class="steps mt-[80px] xl:mt-[200px] relative z-20">
             <div class="container mx-auto">
                 <!-- grid items-->
                  <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
@@ -114,7 +114,7 @@
         </section>
 
         <!--about section-->
-        <section class="about container mx-auto mt-[80px] xl:mt-[200px] relative z-20  xl:px-0">
+        <section id="about" class="about container mx-auto mt-[80px] xl:mt-[200px] relative z-20  xl:px-0">
 
             <div class="flex flex-col xl:flex-row gap-8 xl:gap-[74px] text-center justify-between xl:text-left items-center">
                 <!--text-->
@@ -149,7 +149,7 @@
         </section>
 
         <!--testimonial section-->
-        <section class="testimonial container mx-auto mt-[80px] xl:mt-[200px] relative z-20 xl:px-0">
+        <section id="testimonials" class="testimonial container mx-auto mt-[80px] xl:mt-[200px] relative z-20 xl:px-0">
             <div class="testimonial__bg container mx-auto bg-accent-secondary px-6 rounded-[70px]">
 
                 <div class="flex flex-col items-center pt-[88px] pb-[110px]">
@@ -240,7 +240,7 @@
         </section>
 
         <!-- brands -->
-        <section class="brands container mx-auto mt-[80px] xl:mt-[150px] relative z-20 ">
+        <section id="brands" class="brands container mx-auto mt-[80px] xl:mt-[150px] relative z-20 ">
             <div class="container mx-auto">
                 
                 <!--items-->
@@ -265,7 +265,7 @@
         </section>
 
         <!-- works section -->
-        <section class="works container mx-auto mt-[80px] xl:mt-[150px]  relative z-20 xl:px-0">
+        <section id="works" class="works container mx-auto mt-[80px] xl:mt-[150px]  relative z-20 xl:px-0">
             <div class="container mx-auto xl:px-0 ">
 
                 <!--Text -->
@@ -359,7 +359,7 @@
         </section>
         
         <!-- News section  -->
-        <section class="news mx-auto mt-[80px] xl:mt-[150px] relative z-20">
+        <section id="news" class="news mx-auto mt-[80px] xl:mt-[150px] relative z-20">
 
             <div class="container mx-auto px-0">
 
@@ -421,7 +421,7 @@
         </section>
 
         <!-- ...Contact section... -->
-        <section class="contact mx-auto mt-[80px] xl:mt-[150px] relative z-20">
+        <section id="contact" class="contact mx-auto mt-[80px] xl:mt-[150px] relative z-20">
 
             <div class="contact__container container mx-auto bg-primary sm:rounded-[70px] text-center py-[80px]">
 
@@ -445,7 +445,7 @@
                     <div class="Footer__item  w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left">
 
                         <!--logo-->
-                        <a href="" class="flex justify-center xl:justify-start mb-8 ">
+                        <a href="" id="home" class="flex justify-center xl:justify-start mb-8 ">
                             <img src="/assets/logo.svg" alt="">
                         </a>
                         <p class="mb-8 text-xl">It is a long established fact that a reader will be distracted lookings.</p>
@@ -453,7 +453,7 @@
                         <!-- socials icon -->
                          <ul class="flex gap-[54px] justify-center text-primary xl:justify-start">
                             <li>
-                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a  href=""><i class="ri-facebook-fill"></i></a>
                             </li>
                             <li>
                                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -472,11 +472,11 @@
                         <div class="Footer__item">
                             <h3 class="h3 mb-3">Pages</h3>
                             <ul class="flex flex-col gap-4"> 
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Testimonials</a></li>
-                                <li><a href="">Our Works</a></li>
-                                <li><a href="">News</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a id="about" href="#">About Us</a></li>
+                                <li><a id="testimonials" href="#">Testimonials</a></li>
+                                <li><a id="works" href="#">Our Works</a></li>
+                                <li><a id="news" href="#">News</a></li>
+                                <li><a id="contact" href="#">Contact</a></li>
                             </ul>
                         </div>
 
@@ -516,8 +516,13 @@
         -->
 
     </main>
-    
-    <!--Scrollreal-->
+
+    <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
+    <a href="#" class="fixed right-4 -bottom-1/2 bg-yellow-500 rounded-md shadow-sm inline-block px-3 py-1 md:py-2 md:px-4 text-lg z-50 hover:-translate-y-1 duration-300" id="Scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>    
+
+    <!--Scrollreveal-->
     <script src="js/scrollreveal.min.js"></script>
 
     <!--Swiper-->
