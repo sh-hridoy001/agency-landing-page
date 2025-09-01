@@ -91,3 +91,7 @@ sr.reveal('.news__item', { delay:1000, distance: '100px', interval:100});
 //____________CONTACXT______________
 sr.reveal('.contact');
 sr.reveal('.contact__text', {delay:800} );
+
+
+//___________FOOTER__________________
+sr.reveal('.Footer__item', {distance: '100px', interval:100} )
