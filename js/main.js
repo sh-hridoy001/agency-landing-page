@@ -41,6 +41,9 @@ const swiper = new Swiper(".swiper",{
     },
 });
 
+
+
+
 //scroll reveal animations
 const sr = ScrollReveal({
     origin: 'bottom',
@@ -60,27 +63,29 @@ sr.reveal('.steps__step', {distance: '100px', interval:100});
 
 //__________ABOUT______________
 sr.reveal('.about__text', {origin: 'left'});
-
 sr.reveal('.about__img', {origin: 'right', delay:800});
+
 
 //__________TESTIMONIAL__________
 sr.reveal('.testimonial__bg', {delay:800});
-
 sr.reveal('.testimonial__title');
-
 sr.reveal('.testimonial__slider', {delay:1000});
+
 
 //___________BRANDS_____________
 sr.reveal('.brand__img', { delay:600, distance: '100px', interval:100});
+
 
 //____________WORKS______________
 sr.reveal('.work__title');
 sr.reveal('.work__subtitle', {delay:800 } );
 sr.reveal('.work__grid', {delay:1000 } );
 
+
 //___________STATS________________
 sr.reveal('.stats');
 sr.reveal('.stats__item', { distance: '100px', interval:100});
+
 
 //___________NEWS________________
 sr.reveal('.news__title');
@@ -95,3 +100,4 @@ sr.reveal('.contact__text', {delay:800} );
 
 //___________FOOTER__________________
 sr.reveal('.Footer__item', {distance: '100px', interval:100} )
+sr.reveal('.footer__copyright');
