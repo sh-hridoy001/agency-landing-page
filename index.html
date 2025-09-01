@@ -517,10 +517,38 @@
 
     </main>
 
-    <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
-    <a href="#" class="fixed right-4 -bottom-1/2 bg-yellow-500 rounded-md shadow-sm inline-block px-3 py-1 md:py-2 md:px-4 text-lg z-50 hover:-translate-y-1 duration-300" id="Scroll-up">
-        <i class="ri-arrow-up-line"></i>
-    </a>    
+
+    <!-- Scroll Up Button -->
+    <a href="#" id="Scroll-up" class="fixed right-4 -bottom-1/2 bg-accent/20 rounded-md shadow-sm inline-block px-3 py-1 md:py-2 md:px-4 text-lg z-50 hover:-translate-y-1 duration-300">
+    <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- Remix Icon CDN (head এ add করো) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <script>
+    // Scroll Up Button
+    const scrollUpBtn = document.getElementById("Scroll-up");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY >= 250) {
+        scrollUpBtn.classList.remove("-bottom-1/2");
+        scrollUpBtn.classList.add("bottom-4");
+        } else {
+        scrollUpBtn.classList.add("-bottom-1/2");
+        scrollUpBtn.classList.remove("bottom-4");
+        }
+    });
+
+    scrollUpBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    });
+    </script>
 
     <!--Scrollreveal-->
     <script src="js/scrollreveal.min.js"></script>
@@ -530,6 +558,8 @@
 
     <!--Main js-->
     <script src="/js/main.js"></script>
+
+
     
 </body>
 </html>
