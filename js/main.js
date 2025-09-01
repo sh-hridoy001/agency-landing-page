@@ -51,15 +51,18 @@ const sr = ScrollReveal({
 });
 
 //__________HERO____________
-sr.reveal('.hero__text',{origin:'top'})
+sr.reveal('.hero__text', {origin:'top'})
 
 
 //__________STEPS____________
-sr.reveal('.steps__step',{distance: '100px', interval:100})
+sr.reveal('.steps__step', {distance: '100px', interval:100})
 
 
 //__________ABOUT____________
-sr.reveal('.about__text',{origin: 'left'})
+sr.reveal('.about__text', {origin: 'left'})
 
-sr.reveal('.about__img',{origin: 'right', delay:800})
+sr.reveal('.about__img', {origin: 'right', delay:800})
+
+//__________TESTIMONIAL_______
+sr.reveal('.testimonial__bg', {delay:800})
 
