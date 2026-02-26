@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +18,9 @@
     <!--Google Font _ Manrope Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!--Font Awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -28,19 +31,20 @@
     <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
 
     <style>
-    html {
-        scroll-padding-top: 110px; /* navbar height অনুযায়ী adjust করো */
-        scroll-behavior: smooth;   /* smooth scroll optional */
-    }
+        html {
+            scroll-padding-top: 110px;
+            scroll-behavior: smooth;
+        }
     </style>
 
 
 </head>
+
 <body class="bg-gray-100">
 
 
     <!-- Header section-->
-     <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
         <div class="container mx-auto flex justify-between h-full items-center">
             <!--logo-->
             <a href="">
@@ -53,7 +57,8 @@
                 <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
                     <i class="ri-menu-4-line text-4xl text-primary"></i>
                 </div>
-                <ul id="nav_manu" class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full duration-300 transition-all">
+                <ul id="nav_manu"
+                    class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full duration-300 transition-all">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
@@ -64,33 +69,36 @@
             </nav>
 
         </div>
-     </header>
+    </header>
 
-     
+
     <!--Page Wrapper-->
     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
 
         <!--Bg-grid-->
         <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
-        
+
         <!--Hero -->
-        <section id="home" class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+        <section id="home"
+            class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
             <div class="container mx-auto h-full items-center flex justify-center xl:justify-start">
 
                 <!--text-->
                 <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
                     <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
-                    <p class="mb-8">There are many variations of the passages of lorem Ipsum from available, variations of the passages.</p>
-                    <button class="btn btn-primary mx-auto xl:mx-0">Get free estimation <i class="ri-arrow-right-line text-accent"></i></button>
+                    <p class="mb-8">There are many variations of the passages of lorem Ipsum from available, variations
+                        of the passages.</p>
+                    <button class="btn btn-primary mx-auto xl:mx-0">Get free estimation <i
+                            class="ri-arrow-right-line text-accent"></i></button>
                 </div>
             </div>
-        </section> 
-        
+        </section>
+
         <!--Steps-->
         <section id="" class="steps mt-[80px] xl:mt-[200px] relative z-20">
             <div class="container mx-auto">
                 <!-- grid items-->
-                 <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+                <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
 
                     <!--step -1 -->
                     <div class=" steps__step text-center">
@@ -98,8 +106,10 @@
                             <i class="ri-compasses-2-line text-5xl text-accent"></i>
                         </div>
                         <h3 class="h3 mb-5">Project Planning</h3>
-                        <p class="max-w-md mb-5 mx-auto">There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                        <a href="#" class="font-medium flex justify-center gap-2 hover:text-accent">Read more<i class="ri-arrow-right-line text-accent"></i></a> 
+                        <p class="max-w-md mb-5 mx-auto">There are many variations of the passages of lorem Ipsum from
+                            available, majority.</p>
+                        <a href="#" class="font-medium flex justify-center gap-2 hover:text-accent">Read more<i
+                                class="ri-arrow-right-line text-accent"></i></a>
                     </div>
                     <!--step -2 -->
                     <div class=" steps__step text-center">
@@ -107,8 +117,10 @@
                             <i class="ri-magic-line text-5xl text-accent"></i>
                         </div>
                         <h3 class="h3 mb-5">Gaining Materials</h3>
-                        <p class="max-w-md mb-5 mx-auto">There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                        <a href="#" class="font-medium flex justify-center gap-2 hover:text-accent">Read more<i class="ri-arrow-right-line text-accent"></i></a> 
+                        <p class="max-w-md mb-5 mx-auto">There are many variations of the passages of lorem Ipsum from
+                            available, majority.</p>
+                        <a href="#" class="font-medium flex justify-center gap-2 hover:text-accent">Read more<i
+                                class="ri-arrow-right-line text-accent"></i></a>
                     </div>
                     <!--step -3 -->
                     <div class=" steps__step text-center">
@@ -116,23 +128,28 @@
                             <i class="ri-tools-line text-5xl text-accent"></i>
                         </div>
                         <h3 class="h3 mb-5">Project Execution</h3>
-                        <p class="max-w-md mb-5 mx-auto">There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                        <a href="#" class="font-medium flex justify-center gap-2 hover:text-accent">Read more<i class="ri-arrow-right-line text-accent"></i></a> 
+                        <p class="max-w-md mb-5 mx-auto">There are many variations of the passages of lorem Ipsum from
+                            available, majority.</p>
+                        <a href="#" class="font-medium flex justify-center gap-2 hover:text-accent">Read more<i
+                                class="ri-arrow-right-line text-accent"></i></a>
                     </div>
 
-                 </div>
+                </div>
             </div>
         </section>
 
         <!--about section-->
         <section id="about" class="about container mx-auto mt-[80px] xl:mt-[200px] relative z-20  xl:px-0">
 
-            <div class="flex flex-col xl:flex-row gap-8 xl:gap-[74px] text-center justify-between xl:text-left items-center">
+            <div
+                class="flex flex-col xl:flex-row gap-8 xl:gap-[74px] text-center justify-between xl:text-left items-center">
                 <!--text-->
-                <div class="about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
+                <div
+                    class="about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
                     <h2 class="h2">We Create The Art Of Stylish Living Stylishly</h2>
-                    <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
-                   
+                    <p>It is a long established fact that a reader will be distracted by the of readable content of a
+                        page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
+
                     <!-- phone -->
                     <div class="flex items-center justify-center xl:justify-start gap-4">
                         <div class="bg-accent/15 w-[93px] h-[93px] rounded-full flex justify-center items-center ">
@@ -145,11 +162,12 @@
                     </div>
 
                     <!--button-->
-                    <button class="btn btn-primary ">Get free estimation<i class="ri-arrow-right-line text-accent"></i></button>
+                    <button class="btn btn-primary ">Get free estimation<i
+                            class="ri-arrow-right-line text-accent"></i></button>
                 </div>
 
                 <!--img-->
-                
+
                 <div class="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-none xl:mx-0">
                     <img src="/assets/about/img.png" alt="">
                 </div>
@@ -173,11 +191,12 @@
                         <div class="testimonial__slider swiper h-[400px]">
 
                             <div class="swiper-wrapper">
-                                
+
                                 <!--slide 1-->
                                 <div class="swiper-slide">
-                                    <div class="testimonial__item bg-white w-full h-[340px] max-w-[450  px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
-                            
+                                    <div
+                                        class="testimonial__item bg-white w-full h-[340px] max-w-[450  px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
+
                                         <!--item-->
                                         <div class="flex gap-4 mb-6">
                                             <img src="/assets/testimonial/01.png" alt="">
@@ -186,14 +205,16 @@
                                                 <div>Greenville, USA</div>
                                             </div>
                                         </div>
-                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.</p>
+                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.
+                                        </p>
                                     </div>
                                 </div>
 
                                 <!--slide 2-->
                                 <div class="swiper-slide">
-                                    <div class="testimonial__item bg-white w-full h-[340px] max-w-[450px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
-                            
+                                    <div
+                                        class="testimonial__item bg-white w-full h-[340px] max-w-[450px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
+
                                         <!--item-->
                                         <div class="flex gap-4 mb-6">
                                             <img src="/assets/testimonial/02.png" alt="">
@@ -202,14 +223,16 @@
                                                 <div>Oak Ridge, USA</div>
                                             </div>
                                         </div>
-                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.</p>
+                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.
+                                        </p>
                                     </div>
                                 </div>
 
                                 <!--slide 3-->
                                 <div class="swiper-slide">
-                                    <div class="testimonial__item bg-white w-full h-[340px] max-w-[450px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
-                            
+                                    <div
+                                        class="testimonial__item bg-white w-full h-[340px] max-w-[450px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
+
                                         <!--item-->
                                         <div class="flex gap-4 mb-6">
                                             <img src="/assets/testimonial/03.png" alt="">
@@ -218,14 +241,16 @@
                                                 <div>Berlin, Germany</div>
                                             </div>
                                         </div>
-                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.</p>
+                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.
+                                        </p>
                                     </div>
                                 </div>
 
                                 <!--slide 4-->
                                 <div class="swiper-slide">
-                                    <div class="testimonial__item bg-white w-full h-[340px] max-w-[450px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
-                            
+                                    <div
+                                        class="testimonial__item bg-white w-full h-[340px] max-w-[450px] rounded-[30px] flex flex-col justify-center p-9 mx-auto">
+
                                         <!--item-->
                                         <div class="flex gap-4 mb-6">
                                             <img src="/assets/testimonial/04.png" alt="">
@@ -234,7 +259,8 @@
                                                 <div>Blue Ridge, France</div>
                                             </div>
                                         </div>
-                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.</p>
+                                        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -253,23 +279,23 @@
         <!-- brands -->
         <section id="brands" class="brands container mx-auto mt-[80px] xl:mt-[150px] relative z-20 ">
             <div class="container mx-auto">
-                
+
                 <!--items-->
                 <div class="flex flex-col xl:flex-row gap-12 justify-between items-center ">
                     <div>
-                        <img  class="brand__img" src="/assets/brands/01.svg" alt="">
+                        <img class="brand__img" src="/assets/brands/01.svg" alt="">
                     </div>
                     <div>
-                        <img  class="brand__img" src="/assets/brands/02.svg" alt="">
+                        <img class="brand__img" src="/assets/brands/02.svg" alt="">
                     </div>
                     <div>
-                        <img  class="brand__img" src="/assets/brands/03.svg" alt="">
+                        <img class="brand__img" src="/assets/brands/03.svg" alt="">
                     </div>
                     <div>
-                        <img  class="brand__img" src="/assets/brands/04.svg" alt="">
+                        <img class="brand__img" src="/assets/brands/04.svg" alt="">
                     </div>
                     <div>
-                        <img  class="brand__img" src="/assets/brands/05.svg" alt="">
+                        <img class="brand__img" src="/assets/brands/05.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -282,7 +308,8 @@
                 <!--Text -->
                 <div class="mb-24 text-center">
                     <h2 class="work__title h2 mb-4 ">Follow Our Projects</h2>
-                    <p class="work__subtitle max-w-3xl mx-auto">It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.</p>
+                    <p class="work__subtitle max-w-3xl mx-auto">It is a long established fact that a reader will be
+                        distracted by the of readable content of page lookings at its layouts points.</p>
                 </div>
                 <!-- IMG Grid -->
                 <div class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]">
@@ -290,59 +317,63 @@
                     <!--item 1-->
                     <div class="w-full h-full mx-auto max-w-[548px] p-6">
                         <img class="mb-6" src="/assets/work/01.png" alt="">
-                        <div class="flex justify-between items-center w-full" >
+                        <div class="flex justify-between items-center w-full">
                             <div>
                                 <h3 class="h3 ">Modern Kitchen</h3>
                                 <p>Decor/Architecture</p>
                             </div>
-                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
+                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i
+                                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
                         </div>
                     </div>
 
                     <!--item 2-->
                     <div class="w-full h-full mx-auto max-w-[548px]">
                         <img class="mb-6" src="/assets/work/02.png" alt="">
-                        <div class="flex justify-between items-center w-full" >
+                        <div class="flex justify-between items-center w-full">
                             <div>
                                 <h3 class="h3 ">Modern Kitchen</h3>
                                 <p>Decor/Architecture</p>
                             </div>
-                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
+                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i
+                                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
                         </div>
                     </div>
 
                     <!--item 3-->
                     <div class="w-full h-full mx-auto max-w-[548px]">
                         <img class="mb-6" src="/assets/work/03.png" alt="">
-                        <div class="flex justify-between items-center w-full" >
+                        <div class="flex justify-between items-center w-full">
                             <div>
                                 <h3 class="h3 ">Modern Kitchen</h3>
                                 <p>Decor/Architecture</p>
                             </div>
-                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
+                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i
+                                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
                         </div>
                     </div>
 
                     <!--item 4-->
                     <div class="w-full h-full mx-auto max-w-[548px]">
                         <img class="mb-6" src="/assets/work/04.png" alt="">
-                        <div class="flex justify-between items-center w-full" >
+                        <div class="flex justify-between items-center w-full">
                             <div>
                                 <h3 class="h3 ">Modern Kitchen</h3>
                                 <p>Decor/Architecture</p>
                             </div>
-                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
+                            <button class=" bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full "><i
+                                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
-        
+
         <!-- STATS -->
         <section class="stats mx-auto mt-[80px] xl:mt-[150px] bg-accent-secondary relative z-20 ">
 
-            <div class="container mx-auto py-[80px] xl:py-[150px]" >
+            <div class="container mx-auto py-[80px] xl:py-[150px]">
                 <div class="grid grid-cols-1 xl:grid-cols-4 text-center gap-12">
 
                     <div class=" stats__item text-center xl:border-r xl:border-accent">
@@ -368,7 +399,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- News section  -->
         <section id="news" class="news mx-auto mt-[80px] xl:mt-[150px] relative z-20">
 
@@ -377,20 +408,24 @@
                 <!-- text -->
                 <div class="text-center mb-14">
                     <h2 class="news__title h2 mb-4">Articles & News</h2>
-                    <p class="news__subtitle max-w-4xl mx-auto">It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.</p>
+                    <p class="news__subtitle max-w-4xl mx-auto">It is a long established fact that a reader will be
+                        distracted by the of readable content of a page when lookings at its layouts the points of
+                        using.</p>
                 </div>
 
                 <!-- grid -->
-                 <div class="news__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px] ">
+                <div class="news__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px] ">
 
                     <!--grid item 1-->
-                    <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
+                    <div
+                        class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
                         <img class="mb-5" src="/assets/news/01.png" alt="">
                         <div class="flex flex-col gap-[30px]">
                             <h3 class="h3 mb-5">Let's Get Solution For Building Construction Work</h3>
                             <div class="flex items-center justify-between">
                                 <p class="text-base">28 august,2025</p>
-                                <button class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
+                                <button
+                                    class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
                                     <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
                                 </button>
                             </div>
@@ -398,13 +433,15 @@
                     </div>
 
                     <!--grid item 2-->
-                    <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
+                    <div
+                        class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
                         <img class="mb-5" src="/assets/news/02.png" alt="">
                         <div class="flex flex-col gap-[30px]">
                             <h3 class="h3 mb-5">Low Cost Latest Invented Interior Designing Ideas.</h3>
                             <div class="flex items-center justify-between">
                                 <p class="text-base">29 august,2025</p>
-                                <button class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
+                                <button
+                                    class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
                                     <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
                                 </button>
                             </div>
@@ -412,20 +449,22 @@
                     </div>
 
                     <!--grid item 3-->
-                    <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
+                    <div
+                        class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0 rounded-[62px] p-[20px] ">
                         <img class="mb-5" src="/assets/news/03.png" alt="">
                         <div class="flex flex-col gap-[30px]">
                             <h3 class="h3 mb-5">Best For Any Office & Business Interior Solution</h3>
                             <div class="flex items-center justify-between">
                                 <p class="text-base">30 august,2025</p>
-                                <button class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
+                                <button
+                                    class="bg-accent-secondary group-hover:bg-white w-[52px] h-[52px] rounded-full transition-all">
                                     <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
                                 </button>
                             </div>
                         </div>
                     </div>
 
-                 </div>
+                </div>
 
             </div>
 
@@ -439,8 +478,10 @@
                 <!--text-->
                 <div class="contact__text text-center mx-auto max-w-[640px]">
                     <h2 class="h2 text-white mx-w-[640px] mx-auto text-center mb-4">Do you want to join Interno?</h2>
-                    <p class="text-white max-w-sm xl:max-w-none mx-auto mb-8">It is a long established fact will be distracted.</p>
-                    <button class="btn btn-accent mx-auto">Connect with us<i class="ri-arrow-right-line text-primary"></i></button>
+                    <p class="text-white max-w-sm xl:max-w-none mx-auto mb-8">It is a long established fact will be
+                        distracted.</p>
+                    <button class="btn btn-accent mx-auto">Connect with us<i
+                            class="ri-arrow-right-line text-primary"></i></button>
 
                 </div>
 
@@ -459,12 +500,13 @@
                         <a href="" id="home" class="flex justify-center xl:justify-start mb-8 ">
                             <img src="/assets/logo.svg" alt="">
                         </a>
-                        <p class="mb-8 text-xl">It is a long established fact that a reader will be distracted lookings.</p>
+                        <p class="mb-8 text-xl">It is a long established fact that a reader will be distracted lookings.
+                        </p>
 
                         <!-- socials icon -->
-                         <ul class="flex gap-[54px] justify-center text-primary xl:justify-start">
+                        <ul class="flex gap-[54px] justify-center text-primary xl:justify-start">
                             <li>
-                                <a  href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
                             </li>
                             <li>
                                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -475,14 +517,15 @@
                             <li>
                                 <a href=""><i class="ri-instagram-fill"></i></a>
                             </li>
-                         </ul>
+                        </ul>
                     </div>
 
-                    <div class="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end ">
-                        
+                    <div
+                        class="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end ">
+
                         <div class="Footer__item">
                             <h3 class="h3 mb-3">Pages</h3>
-                            <ul class="flex flex-col gap-4"> 
+                            <ul class="flex flex-col gap-4">
                                 <li><a id="about" href="#about">About Us</a></li>
                                 <li><a id="testimonials" href="#testimonials">Testimonials</a></li>
                                 <li><a id="works" href="#works">Our Works</a></li>
@@ -494,7 +537,7 @@
                         <!--services logo-->
                         <div class="Footer__item">
                             <h3 class="h3 mb-3">Services</h3>
-                            <ul class="flex flex-col gap-4"> 
+                            <ul class="flex flex-col gap-4">
                                 <li><a href="">Kitchen</a></li>
                                 <li><a href="">Living Area</a></li>
                                 <li><a href="">bathroom</a></li>
@@ -507,7 +550,7 @@
                             <div class="flex flex-col gap-6 text-[20px]">
                                 <p>Mirsarai, Chittagong, Bangladesh</p>
                                 <p class="hover:text-accent">sazzadhossainhridoy961@gmail.com</p>
-                                <p>Call- 01873960970</p>                            
+                                <p>Call- 01873960970</p>
                             </div>
 
                         </div>
@@ -517,9 +560,10 @@
                 </div>
             </div>
             <!-- copyright -->
-             <p class="footer__copyright text-center py-10 text-lg bg-white xl:border-t ">Copyright &copy; Interno 2025, All rights reserved.</p>
+            <p class="footer__copyright text-center py-10 text-lg bg-white xl:border-t ">Copyright &copy; Interno 2025,
+                All rights reserved.</p>
         </footer>
-        
+
         <!--
         Temporary DIV  
         <div class="h-[3000px]">
@@ -530,8 +574,9 @@
 
 
     <!-- Scroll Up Button -->
-    <a href="#" id="Scroll-up" class="fixed right-4 -bottom-1/2 bg-accent/20 hover:bg-secondary group rounded-md shadow-sm inline-block px-3 py-1 md:py-2 md:px-4 text-lg z-50 hover:-translate-y-1 duration-300">
-    <i class="ri-arrow-up-line group-hover:text-white"></i>
+    <a href="#" id="Scroll-up"
+        class="fixed right-4 -bottom-1/2 bg-accent/20 hover:bg-secondary group rounded-md shadow-sm inline-block px-3 py-1 md:py-2 md:px-4 text-lg z-50 hover:-translate-y-1 duration-300">
+        <i class="ri-arrow-up-line group-hover:text-white"></i>
     </a>
 
     <!-- Remix Icon CDN (head এ add করো) -->
@@ -539,26 +584,26 @@
 
 
     <script>
-    // Scroll Up Button
-    const scrollUpBtn = document.getElementById("Scroll-up");
+        // Scroll Up Button
+        const scrollUpBtn = document.getElementById("Scroll-up");
 
-    window.addEventListener("scroll", () => {
-        if (window.scrollY >= 250) {
-        scrollUpBtn.classList.remove("-bottom-1/2");
-        scrollUpBtn.classList.add("bottom-4");
-        } else {
-        scrollUpBtn.classList.add("-bottom-1/2");
-        scrollUpBtn.classList.remove("bottom-4");
-        }
-    });
-
-    scrollUpBtn.addEventListener("click", (e) => {
-        e.preventDefault();
-        window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+        window.addEventListener("scroll", () => {
+            if (window.scrollY >= 250) {
+                scrollUpBtn.classList.remove("-bottom-1/2");
+                scrollUpBtn.classList.add("bottom-4");
+            } else {
+                scrollUpBtn.classList.add("-bottom-1/2");
+                scrollUpBtn.classList.remove("bottom-4");
+            }
         });
-    });
+
+        scrollUpBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
     </script>
 
     <!--Scrollreveal-->
@@ -570,6 +615,7 @@
     <!--Main js-->
     <script src="/js/main.js"></script>
 
-    
+
 </body>
+
 </html>
